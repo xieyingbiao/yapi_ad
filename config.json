@@ -8,9 +8,9 @@
 	},
    "ldapLogin": {
       "enable": true,
-      "server": "ldap://172.16.61.198:389",
-      "baseDn": "xieyingbiao",
-      "bindPassword": "xyb123456",
+      "server": "ldap://ip:port",
+      "baseDn": "username",
+      "bindPassword": "pwd",
       "searchDn": "DC=panda,DC=com",
       "searchStandard": "&((objectCategory=person)(objectclass=user))(sAMAccountName=%s)",
       "emailPostfix": "",
